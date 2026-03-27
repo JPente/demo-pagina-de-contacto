@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHuerto - Cultiva tu propio alimento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#inicio" class="nav__logo"><img src="images/logo.png" alt="EcoHuerto"></a>
+            <ul class="nav__links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero__content container">
+                <h1>Transforma tu espacio en un huerto sostenible</h1>
+                <p>Cultiva tus propios alimentos de manera ecológica y sostenible</p>
+                <a href="#contacto" class="btn">¡Empieza ahora!</a>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                <div class="services__grid">
+                    <div class="service">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Diseño de Huertos</h3>
+                        <p>Diseñamos huertos personalizados según tu espacio y necesidades.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-hand-holding-water"></i>
+                        <h3>Asesoría en Riego</h3>
+                        <p>Sistemas de riego eficientes para optimizar el uso del agua.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Talleres</h3>
+                        <p>Aprende técnicas de cultivo orgánico con nuestros talleres.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acerca" class="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <h2>Acerca de EcoHuerto</h2>
+                        <p>Somos un equipo apasionado por la agricultura urbana y la sostenibilidad. Nuestro objetivo es ayudar a las personas a reconectarse con la naturaleza a través del cultivo de sus propios alimentos.</p>
+                        <p>Con más de 5 años de experiencia, hemos ayudado a cientos de personas a crear sus propios huertos urbanos.</p>
+                    </div>
+                    <div class="about__image">
+                        <img src="images/huerto-urbano.jpg" alt="Huerto urbano" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <div class="container">
+                <h2>Conoce más sobre nosotros</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F3SUsGqg2uE?si=K2_EcwTczPw3elU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <div class="contact__container">
+                    <form id="contactForm" class="contact__form">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar mensaje</button>
+                    </form>
+                    <div class="contact__info">
+                        <h3>Información de contacto</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Siempre Viva 123, Santiago</p>
+                        <p><i class="fas fa-phone"></i> +56 9 1234 5678</p>
+                        <p><i class="fas fa-envelope"></i> contacto@ecohuerto.cl</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">EcoHuerto</div>
+                <p>© 2023 EcoHuerto. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
