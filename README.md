@@ -15,7 +15,7 @@ CSS3: Estilizado avanzado, incluyendo Flexbox y Grid para el posicionamiento.
 JavaScript (ES6+): Manipulación del DOM y manejo de eventos del formulario.
 
 ### Estructura del proyecto:
-│  
+│
 ├── img/          # Logotipos y fondos de la landing page
 ├── css/          # Archivos de estilos
 ├── js/           # Lógica de validación y comportamiento
